@@ -1,6 +1,6 @@
 # Genomic Epidemiology of Novel Coronavirus (COVID-19) | Nextstrain 
 
-The source code outlining how this product gathers, transforms, revises and publishes its datasets is avaiable at [https://github.com/rearc-data/nextstrain-hcov-19](https://github.com/rearc-data/nextstrain-hcov-19).
+The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/nextstrain-hcov-19](https://github.com/rearc-data/nextstrain-hcov-19).
 
 ## Product Description
 Nextstrain is an open-source project to harness the scientific and public health potential of pathogen genome data. They provide a continually-updated view of publicly available data with powerful analytics and visualizations showing pathogen evolution and epidemic spread. Their goal is to aid epidemiological understanding and improve outbreak response.
