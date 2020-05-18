@@ -7,7 +7,7 @@
 You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-2vjwawjmek2vy](https://aws.amazon.com/marketplace/pp/prodview-2vjwawjmek2vy). 
 
 
-## Product Description
+## Main Overview
 Nextstrain is an open-source project to harness the scientific and public health potential of pathogen genome data. They provide a continually-updated view of publicly available data with powerful analytics and visualizations showing pathogen evolution and epidemic spread. Their goal is to aid epidemiological understanding and improve outbreak response.
 
 This phylogeny shows evolutionary relationships of hCoV-19 (or SARS-CoV-2) viruses from the ongoing novel coronavirus COVID-19 pandemic. This phylogeny shows an initial emergence in Wuhan, China, in Nov-Dec 2019 followed by sustained human-to-human transmission leading to sampled infections. Although the genetic relationships among sampled viruses are quite clear, there is considerable uncertainty surrounding estimates of specific transmission dates and in reconstruction of geographic spread. Please be aware that specific inferred transmission patterns are only a hypothesis.
