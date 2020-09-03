@@ -140,4 +140,8 @@ def lambda_handler(event, context):
 				'body': json.dumps('Revision did not complete successfully')
 			}
 	else:
-		raise Exception('Something went wrong when uploading files to s3')
+		print("No changes found, no Revision created")
+		return {
+			'statusCode': 200,
+			'body': json.dumps('MD5 comparison found no changes, nothing to publish')
+		}
