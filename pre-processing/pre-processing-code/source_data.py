@@ -24,7 +24,7 @@ def data_to_s3(endpoint):
 		raise Exception('URLError: ', e.reason, endpoint)
 
 	else:
-		data_set_name = os.environ['DATA_SET_NAME']
+		data_set_name = os.environ['DATASET_NAME']
 		filename = data_set_name + endpoint
 		new_s3_key = data_set_name + '/dataset/' + filename
 		file_location = '/tmp/' + filename
@@ -40,7 +40,7 @@ def data_to_s3(endpoint):
 		os.remove(file_location + '.gz')
 
 		# variables/resources used to upload to s3
-		s3_bucket = os.environ['S3_BUCKET']
+		s3_bucket = os.environ['ASSET_BUCKET']
 		s3 = boto3.client('s3')
 
 		has_changes = md5_compare(s3, s3_bucket, new_s3_key, file_location)
@@ -82,3 +82,6 @@ def source_dataset():
 			raise Exception('Something went wrong when uploading files to s3')
 	# asset_list is returned to be used in lamdba_handler function
 	return asset_list
+
+if __name__ == '__main__':
+    source_dataset()
