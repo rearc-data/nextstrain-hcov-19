@@ -43,4 +43,3 @@ def md5_compare(s3, bucket_name, s3_key, filename):
         md5_matches = etag_compare(filename,etag)
 
         return md5_matches
-

@@ -5,8 +5,8 @@ import gzip
 from urllib.request import urlopen
 from urllib.error import URLError, HTTPError
 from multiprocessing.dummy import Pool
+#from rearc_data_utils.s3_helper import s3_md5_compare as s3md5
 from s3_md5_compare import md5_compare
-
 def data_to_s3(endpoint):
 
 	# throws error occured if there was a problem accessing data
